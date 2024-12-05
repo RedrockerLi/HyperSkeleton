@@ -4,7 +4,7 @@
 #include <chrono>
 #include <iostream>
 #include <string>
-#include "dataStructure.hpp"
+#include "dataType.hpp"
 
 class Timer {
 public:

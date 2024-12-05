@@ -1,12 +1,14 @@
 #include <iostream>
-#include "dataStructure.hpp"
-#include "hyperCalc.hpp"
+#include "dataType.hpp"
+#include "mat.hpp"
 #include "timer.hpp"
 
+#define M 100
+
 int main(){
-    Mat<fp> A(1000,1000);
-    Mat<fp> B(1000,1000);
-    Mat<fp> C(1000,1000);
+    Mat<fp> A(M,M);
+    Mat<fp> B(M,M);
+    Mat<fp> C(M,M);
     Timer timer("mat mul");
     A.ramdon();
     B.ramdon();

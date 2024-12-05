@@ -1,5 +1,5 @@
-#ifndef __DATA_STRUCTURE_HPP
-#define __DATA_STRUCTURE_HPP
+#ifndef __DATA_TYPE_HPP
+#define __DATA_TYPE_HPP
 #include <cstdint>
 #include <vector>
 

@@ -1,6 +1,6 @@
 #ifndef __LAYERS_HPP
 #define __LAYERS_HPP
-#include "dataStructure.hpp"
+#include "dataType.hpp"
 
 class FullyConnectedLayer
 {
